@@ -7,7 +7,7 @@
 ##   sys.path.append( -> location(dir) of branch.py <- )                               ##
 ##   import branch as brn                                                              ##
 ##                                                                                     ##
-##   (example -  sys.path.append('C:\\Users\\joo09\\Documents\\GitHub\\LIBRARY') )     ##
+##   (example -  sys.path.append('C:\\Users\\joo09\\Documents\\GitHub\\branch') )      ##
 ##                                                                                     ##
 ##                                                                                     ##
 ##                              #### HOW TO RE-IMPORT ####                             ##
@@ -110,7 +110,7 @@
 ##                                     ㅣ                                              ##
 ##                                     ㄴㅡPython                                      ##
 ##                                        ㄴㅡbranch                                   ##
-##                                           ㄴㅡinit_theme                            ##
+##                                           ㄴㅡtheme_korean                          ##
 ##                                                                                     ##
 ##                                                                                     ##
 #########################################################################################
@@ -118,7 +118,7 @@
 #########################################################################################
 
 
-def init_theme() :
+def default_theme() :
     bar = '│'
     empty = '  '
     middle = '\u251c'
@@ -146,24 +146,25 @@ def theme_korean() :
 #########################################################################################
 
 def branch(string) :
-    bar, empty, middle, end, tip = init_theme()
+    bar, empty, middle, end, tip = default_theme()
     bracket_list, string_list = split_string(string)
     br_length = branches_length(bracket_list)
     istip = tip_finder(br_length)
     structure = branch_structure(br_length)
     string_adj = makebranch(bar, empty, middle, end, string_list, br_length, istip, structure)
-    
+    print(string_adj)
+
     return string_adj
 
 def branch_theme(theme, string) :
     bar, empty, middle, end, tip = eval(theme)
-    # bar, empty, middle, end, tip = 
     bracket_list, string_list = split_string(string)
     br_length = branches_length(bracket_list)
     istip = tip_finder(br_length)
     structure = branch_structure(br_length)
     string_adj = makebranch(bar, empty, middle, end, string_list, br_length, istip, structure)
-    
+    print(string_adj)
+
     return string_adj
 
 
