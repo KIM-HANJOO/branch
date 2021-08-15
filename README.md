@@ -1,7 +1,8 @@
 # branch
 ***
 
-                                    < example of branch >
+                                   < example of branch >
+                                   
                                       .                                              
                                       ├─clothes                                      
                                       │  ├─shirts                                    
@@ -17,8 +18,8 @@
                                       └─Python                                      
                                          └─branch                                    
                                             └─init_theme   
-                                            
-                   
+
+***                                       
                    
                               < example of branch using theme >
                                            
