@@ -26,7 +26,13 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
                                       └─init_theme                                  ㄴㅡinit_theme 
 
 ***                                       
-                   
+        
+                                                     < How to import >  
+    import sys
+    sys.path.append(*location(dir) of branch.py*)
+    import branch as brn
+
+***           
                                                          < Code >  
                                                        
     - branch -                                                  - branch using theme -
@@ -40,9 +46,3 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
     
 ***
 
-                                                     < How to import >  
-    import sys
-    sys.path.append(*location(dir) of branch.py*)
-    import branch as brn
-
-***
