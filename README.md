@@ -43,7 +43,7 @@ inspired by directory branches
                                                      
     1. branch making is only based on the bracketed sign and the sequence you write.
     
-    2. [m] is for the top level categories, in this example, are 'clothes', 'coffee', 'Python'.
+    2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
     
     3. [s] is sub-level of [m]
        continously, [ss] is sub-level of [s], [sss] is sub-level of [ss]..
