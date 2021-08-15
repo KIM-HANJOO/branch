@@ -34,7 +34,7 @@ inspired by directory branches
                                                      < How to use >  
                                                      
     branch making is only based on the bracketed sign and the sequence you write.
-    [m] is for the top level categories, in this example, 'clothes', 'coffee', 'Python'
+    [m] is for the top level categories, in this example, are 'clothes', 'coffee', 'Python'.
     [s] is sub-level of [m]
     continously, [ss] is sub-level of [s], [sss] is sub-level of [ss]..
     the shape of the branch will be automatically made
