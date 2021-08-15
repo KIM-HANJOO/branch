@@ -40,11 +40,16 @@ inspired by directory branches
         
                                                      < How to use >  
                                                      
+                                                     
     1. branch making is only based on the bracketed sign and the sequence you write.
+    
     2. [m] is for the top level categories, in this example, are 'clothes', 'coffee', 'Python'.
+    
     3. [s] is sub-level of [m]
        continously, [ss] is sub-level of [s], [sss] is sub-level of [ss]..
+       
     4. the shape of the branch will be automatically made
+   
     
 ***   
 
