@@ -8,7 +8,7 @@
 ***
 
                                                        < Result >  
-                                                                                - Theme_korean -
+                                 - Default -                                    - Theme_korean -
                                                                                 
                                 .                                              .                                               
                                 ├─clothes                                      ㅏㅡclothes 
@@ -39,13 +39,14 @@
     from imp import reload 
     reload(brn) 
 
-***  
+***
+
                                                          < Code >  
-                                                       
-    - branch -                                                    - branch using theme -
+    ( Default theme )                
+    branched_string = brn.branch(string)
     
-    branched_string = brn.branch(string)                          themed_str = brn.branch_theme('theme_korean()', string)
-    
+    ( 'theme_korean' theme )                
+    themed_str = brn.branch_theme('theme_korean()', string)
     
     
     
