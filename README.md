@@ -28,5 +28,6 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
 ***                                       
                    
                                                        < Code >  
-                                             
-    branched_string = brn.branch(string)                                    themed_str = brn.branch_theme('theme_korean()', string)
+                                                       
+    < branch >                                                  < branch using theme >                      
+    branched_string = brn.branch(string)                        themed_str = brn.branch_theme('theme_korean()', string)
