@@ -56,9 +56,11 @@ inspired by directory branches
 
                                                          < Code >  
     ( Default theme )                
+    
     branched_string = brn.branch(string)
     
-    ( 'theme_korean' theme )                
+    ( apply theme )      
+    
     themed_str = brn.branch_theme('theme_korean()', string)
     
     
