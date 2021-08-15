@@ -20,7 +20,7 @@ inspired by directory branches
                                                        < Result >  
                                - Default -                                    - Theme_korean -
                                                                               
-                              .                                              .                                               
+                              .                                              .                
                               ├─clothes                                      ㅏㅡclothes 
                               │  ├─shirts                                    ㅣ  ㅏㅡshirts  
                               │  ├─pants                                     ㅣ  ㅏㅡpants   
