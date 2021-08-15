@@ -1,8 +1,12 @@
 # BRANCH
-branch is a user module for expressing vertical / horizontal relationship between objects  
+**branch is a user module** for expressing vertical / horizontal relationship between objects  
 inspired by directory branches
 
+
+
 ![](example_gif.gif)
+
+
 
 
 ******                                     
