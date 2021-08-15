@@ -6,7 +6,7 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
               
 ***
 
-                            < example of branch >                       < example of branch using theme >
+                                  < branch >                                < branch using theme >
                             
                                                                                 - Theme_korean -
                                 .                                              .                                               
