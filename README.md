@@ -1,6 +1,14 @@
 # BRANCH
-branch is a user module for expressing vertical / horizontal relationship between objects  
-inspired by directory branches
+**BRANCH is a user module** for expressing vertical / horizontal relationship between objects  
+inspired by directory branches  
+no additional libraries needed (acts only with lists)
+  
+  
+
+![](example_gif.gif)
+
+  
+  
 
 ******                                     
 
@@ -11,33 +19,38 @@ inspired by directory branches
 ***
 
                                                        < Result >  
-                                 - Default -                                    - Theme_korean -
-                                                                                
-                                .                                              .                                               
-                                ├─clothes                                      ㅏㅡclothes 
-                                │  ├─shirts                                    ㅣ  ㅏㅡshirts  
-                                │  ├─pants                                     ㅣ  ㅏㅡpants   
-                                │  │  └─denim                                  ㅣ  ㅣ  ㄴㅡdenim  
-                                │  │     └─tapered                             ㅣ  ㅣ     ㄴㅡtapered   
-                                │  └─accessories                               ㅣ  ㄴㅡaccessories   
-                                │                                              ㅣ                     
-                                ├─coffee                                       ㅏㅡcoffee     
-                                │  ├─espresso                                  ㅣ  ㅏㅡespresso    
-                                │  └─latte                                     ㅣ  ㄴㅡlatte  
-                                │                                              ㅣ          
-                                └─Python                                      ㄴㅡPython      
-                                   └─branch                                      ㄴㅡbranch       
-                                      └─init_theme                                  ㄴㅡinit_theme 
+                               - Default -                                    - Theme_korean -
+                                                                              
+                              .                                              .                
+                              ├─clothes                                      ㅏㅡclothes 
+                              │  ├─shirts                                    ㅣ  ㅏㅡshirts  
+                              │  ├─pants                                     ㅣ  ㅏㅡpants   
+                              │  │  └─denim                                  ㅣ  ㅣ  ㄴㅡdenim  
+                              │  │     └─tapered                             ㅣ  ㅣ     ㄴㅡtapered   
+                              │  └─accessories                               ㅣ  ㄴㅡaccessories   
+                              │                                              ㅣ                     
+                              ├─coffee                                       ㅏㅡcoffee     
+                              │  ├─espresso                                  ㅣ  ㅏㅡespresso    
+                              │  └─latte                                     ㅣ  ㄴㅡlatte  
+                              │                                              ㅣ          
+                              └─Python                                      ㄴㅡPython      
+                                 └─branch                                      ㄴㅡbranch       
+                                    └─init_theme                                  ㄴㅡinit_theme 
 
 ***                                       
         
                                                      < How to use >  
                                                      
-    branch making is only based on the bracketed sign and the sequence you write.
-    [m] is for the top level categories, in this example, are 'clothes', 'coffee', 'Python'.
-    [s] is sub-level of [m]
-    continously, [ss] is sub-level of [s], [sss] is sub-level of [ss]..
-    the shape of the branch will be automatically made
+                                                     
+    1. branch making is only based on the bracketed sign and the sequence you write.
+    
+    2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
+    
+    3. [s] is sub-level of [m], [ss] is sub-level of [s], 
+       continously, [sss] is sub-level of [ss]..
+       
+    4. the shape of the branch will be automatically made
+   
     
 ***   
 
