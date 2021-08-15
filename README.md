@@ -32,7 +32,13 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
     sys.path.append(*location(dir) of branch.py*)
     import branch as brn
 
-***           
+***   
+        
+                                                    < How to re-import >  
+    from imp import reload 
+    reload(brn) 
+
+***  
                                                          < Code >  
                                                        
     - branch -                                                    - branch using theme -
