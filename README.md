@@ -1,7 +1,7 @@
 # BRANCH
 **BRANCH is a user module** for expressing vertical / horizontal relationship between objects  
 inspired by directory branches  
-no additional libraries needed
+no additional libraries needed (acts only with lists)
   
   
 
