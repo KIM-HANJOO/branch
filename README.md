@@ -29,5 +29,15 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
                    
                                                        < Code >  
                                                        
-    < branch >                                                  < branch using theme >                      
+    - branch -                                                  - branch using theme -
+    
     branched_string = brn.branch(string)                        themed_str = brn.branch_theme('theme_korean()', string)
+    
+***
+
+                                                   < How to import >  
+    import sys
+    sys.path.append(*location(dir) of branch.py*)
+    import branch as brn
+
+***
