@@ -1,6 +1,6 @@
 # branch
 ***
-                                                       < input >  
+                                                       < Input >  
 
 string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories [m] coffee [s] espresso [s] latte [m] Python [s] branch [ss] init_theme'  
               
@@ -27,3 +27,6 @@ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessor
 
 ***                                       
                    
+                                                       < Code >  
+                                             
+    branched_string = brn.branch(string)                                    themed_str = brn.branch_theme('theme_korean()', string)
