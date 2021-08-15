@@ -1,5 +1,12 @@
 # branch
 ***
+< input >
+
+ string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
+           [m] coffee [s] espresso [s] latte \
+           [m] Python [s] branch [ss] init_theme'
+              
+***
 
                             < example of branch >                       < example of branch using theme >
                             
