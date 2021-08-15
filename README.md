@@ -7,9 +7,9 @@
               
 ***
 
-                                  < branch >                                < branch using theme >
-                            
+                                                       < Result >  
                                                                                 - Theme_korean -
+                                                                                
                                 .                                              .                                               
                                 ├─clothes                                      ㅏㅡclothes 
                                 │  ├─shirts                                    ㅣ  ㅏㅡshirts  
