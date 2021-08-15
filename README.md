@@ -1,4 +1,7 @@
-# branch
+# BRANCH
+branch is a user module for expressing vertical / horizontal relationship between objects  
+inspired by directory branches
+
 ******                                     
 
                                                        < Input >  
@@ -28,12 +31,22 @@
 
 ***                                       
         
+                                                     < How to use >  
+                                                     
+    branch making is only based on the bracketed sign and the sequence you write.
+    [m] is for the top level categories, in this example, are 'clothes', 'coffee', 'Python'.
+    [s] is sub-level of [m]
+    continously, [ss] is sub-level of [s], [sss] is sub-level of [ss]..
+    the shape of the branch will be automatically made
+    
+***   
+
                                                      < How to import >  
     import sys
     sys.path.append(*location(dir) of branch.py*)
     import branch as brn
 
-***   
+
         
                                                     < How to re-import >  
     from imp import reload 
@@ -43,9 +56,12 @@
 
                                                          < Code >  
     ( Default theme )                
+    
     branched_string = brn.branch(string)
     
-    ( 'theme_korean' theme )                
+    
+    ( apply theme )      
+    
     themed_str = brn.branch_theme('theme_korean()', string)
     
     
