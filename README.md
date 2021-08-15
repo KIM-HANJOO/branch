@@ -1,4 +1,7 @@
 # BRANCH
+branch is a user module for expressing vertical / horizontal relationship between objects
+inspired by directory branches
+
 ******                                     
 
                                                        < Input >  
