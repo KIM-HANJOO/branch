@@ -1,4 +1,10 @@
 # BRANCH
+                                
+<p align="center">
+  <img src="https://github.com/suhyuuk/branch/blob/main/branch_example_functionlist.png"  img width="400px"/>
+<p/>
+
+
 **BRANCH is a user module** for expressing vertical / horizontal relationship between objects  
 inspired by directory branches, **no additional libraries needed (acts only with lists)**
   
@@ -16,17 +22,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
 <p/>
 
 ***
+                               
 
-<div align="center">
-< Example_ list of functions in own library> 
-</div>                                     
-<p align="center">
-  <img src="https://github.com/suhyuuk/branch/blob/main/branch_example_functionlist.png"  img width="400px"/>
-<p/>
-                                        
-<div align="center">
-< How to import > 
-</div>
 
 ***
 
@@ -105,7 +102,9 @@ inspired by directory branches, **no additional libraries needed (acts only with
 
 ***           
 
-  
+<div align="center">
+< How to import > 
+</div>
 ~~~                                                       
     import sys
     sys.path.append(*location(dir) of branch.py*)
