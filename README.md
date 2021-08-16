@@ -4,6 +4,7 @@ inspired by directory branches
 no additional libraries needed (acts only with lists)
   
   
+  
 
 ![](example_gif.gif)
 
@@ -18,38 +19,65 @@ no additional libraries needed (acts only with lists)
               
 ***
 
-                                                       < Result >  
-                      - Default -                                    - Theme_korean -
+                                      < Result >  
+                                      
+                                      - Default -                      
+                                                                                           
+                                     .                                    
+                                     ├─clothes                            
+                                     │  ├─shirts                              
+                                     │  ├─pants                       
+                                     │  │  └─denim                            
+                                     │  │     └─tapered                          
+                                     │  └─accessories                     
+                                     │                                     
+                                     ├─coffee                              
+                                     │  ├─espresso                        
+                                     │  └─latte                           
+                                     │                                    
+                                     └─Python                                
+                                        └─branch                             
+                                           └─init_theme         
+                           
+                           
+***                   
+ 
+                                     < Themes >  
+                           
+                           
+                           
+        - Larva race theme -                        - Default -                      
                                                                            
-                     .                                              .                
-                     ├─clothes                                      ㅏㅡclothes 
-                     │  ├─shirts                                    ㅣ  ㅏㅡshirts  
-                     │  ├─pants                                     ㅣ  ㅏㅡpants   
-                     │  │  └─denim                                  ㅣ  ㅣ  ㄴㅡdenim  
-                     │  │     └─tapered                             ㅣ  ㅣ     ㄴㅡtapered   
-                     │  └─accessories                               ㅣ  ㄴㅡaccessories   
-                     │                                              ㅣ                     
-                     ├─coffee                                       ㅏㅡcoffee     
-                     │  ├─espresso                                  ㅣ  ㅏㅡespresso    
-                     │  └─latte                                     ㅣ  ㄴㅡlatte  
-                     │                                              ㅣ          
-                     └─Python                                      ㄴㅡPython      
-                        └─branch                                      ㄴㅡbranch       
-                           └─init_theme                                  ㄴㅡinit_theme 
+           Larva race! 
+                                                      .                               
+           ...෴                                    ㅏㅡclothes                      
+              ...෴                                 ㅣ  ㅏㅡshirts                   
+              ...෴                                 ㅣ  ㅏㅡpants                    
+                 ...෴                              ㅣ  ㅣ  ㄴㅡdenim                
+                    ...෴                           ㅣ  ㅣ     ㄴㅡtapered           
+              ...෴                                 ㅣ  ㄴㅡaccessories              
+                                                     ㅣ                               
+           ...෴                                    ㅏㅡcoffee                       
+              ...෴                                 ㅣ  ㅏㅡespresso                 
+              ...෴                                 ㅣ  ㄴㅡlatte                    
+                                                     ㅣ                               
+           ...෴                                    ㄴㅡPython                       
+              ...෴                                    ㄴㅡbranch                    
+                 ...෴                                    ㄴㅡinit_theme             
+                          
 
-***                                       
-        
+***                                         
                                                      < How to use >  
                                                      
                                                      
-    1. branch making is only based on the bracketed sign and the sequence you write.
+1. branch making is only based on the bracketed sign and the sequence you write.
     
-    2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
+2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
     
-    3. [s] is sub-level of [m], [ss] is sub-level of [s], 
+3. [s] is sub-level of [m], [ss] is sub-level of [s], 
        continously, [sss] is sub-level of [ss]..
        
-    4. the shape of the branch will be automatically made
+4. the shape of the branch will be automatically made
    
     
 ***   
