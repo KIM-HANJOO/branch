@@ -107,7 +107,7 @@ inspired by directory branches, **no additional libraries needed (acts only with
     
 ~~~ 
 import sys
-sys.path.append(*location(dir) of branch.py*)
+sys.path.append(%%location(dir) of branch.py%%)
 import branch as brn
 ~~~
 
@@ -126,7 +126,7 @@ reload(brn)
   
 ~~~                                                  
 import sys
-sys.path.append(%%your branch location%%)
+sys.path.append(%%location(dir) of branch.py%%)
 import branch as brn
 
 string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
