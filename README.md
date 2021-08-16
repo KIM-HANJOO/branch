@@ -6,6 +6,7 @@ inspired by directory branches, **no additional libraries needed (acts only with
 <p align="center">
   <img src="https://github.com/suhyuuk/branch/blob/main/example_gif.gif"  img width="800px"/>
 <p/>
+
 ***     
   
 <div align="center">
