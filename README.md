@@ -3,9 +3,9 @@
 inspired by directory branches, **no additional libraries needed (acts only with lists)**
   
 ***   
-
-![](example_gif.gif)
-
+<p align="center">
+  <img src="https://github.com/suhyuuk/branch/blob/main/example_gif.gif"  img width="400px"/>
+<p/>
 ***     
   
 <div align="center">
@@ -116,9 +116,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
   default = brn.branch(string)
   theme_larva = brn.branch_theme('larva', string)
   theme_korean = brn.branch_theme('theme_korean', string)     
-    
 ~~~
-      * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
+* you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
 
                                                     
 
