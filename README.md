@@ -75,7 +75,7 @@ no additional libraries needed (acts only with lists)
     
     ( apply theme )      
     
-    themed_str = brn.branch_theme('theme_korean()', string)
+    themed_str = brn.branch_theme('theme_korean', string)
     
     
     
