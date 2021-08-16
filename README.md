@@ -9,7 +9,9 @@ no additional libraries needed (acts only with lists)
 ![](example_gif.gif)
 
   
-<center>gfgfgfgfg  fgfgfgf  fgf</center>
+<div align="center">
+  my text here.
+</div>
 
 ~~~                     
 
