@@ -98,20 +98,20 @@ no additional libraries needed (acts only with lists)
 
                                                          < Code >  
                                                            
-import sys
-sys.path.append(%%your branch location%%)
-import branch as brn
+  import sys
+  sys.path.append(%%your branch location%%)
+  import branch as brn
 
-string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
-          [m] coffee [s] espresso [s] latte \
-          [m] Python [s] branch [ss] init_theme'
+  string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
+            [m] coffee [s] espresso [s] latte \
+            [m] Python [s] branch [ss] init_theme'
 
-default = brn.branch(string)
-theme_larva = brn.branch_theme('larva', string)
-theme_korean = brn.branch_theme('theme_korean', string)     
+  default = brn.branch(string)
+  theme_larva = brn.branch_theme('larva', string)
+  theme_korean = brn.branch_theme('theme_korean', string)     
     
     
-    * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
+      * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
     
 ***
 
