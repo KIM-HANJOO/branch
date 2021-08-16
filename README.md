@@ -83,7 +83,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
 ***                                         
 <div align="center">
 < How to import > 
-</div>   
+</div>
+  
 ~~~                                                       
     import sys
     sys.path.append(*location(dir) of branch.py*)
@@ -92,16 +93,17 @@ inspired by directory branches, **no additional libraries needed (acts only with
 
 <div align="center">
 < How to re-import >  
-</div>   
+</div>  
+  
 ~~~                                                      
     from imp import reload 
     reload(brn) 
 ~~~
-***
   
 <div align="center">
 < Code >  
-</div>                                    
+</div>  
+  
 ~~~                                                  
   import sys
   sys.path.append(%%your branch location%%)
@@ -119,5 +121,5 @@ inspired by directory branches, **no additional libraries needed (acts only with
       * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
 
                                                     
-***
+
 
