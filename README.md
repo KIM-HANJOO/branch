@@ -42,28 +42,28 @@ no additional libraries needed (acts only with lists)
                            
 ***                   
  
-                                     < Themes >  
+                                      < Themes >  
                            
                            
                            
-        - Larva race theme -                        - Default -                      
-                                                                           
-           Larva race! 
-                                                      .                               
-           ...෴                                    ㅏㅡclothes                      
-              ...෴                                 ㅣ  ㅏㅡshirts                   
-              ...෴                                 ㅣ  ㅏㅡpants                    
-                 ...෴                              ㅣ  ㅣ  ㄴㅡdenim                
-                    ...෴                           ㅣ  ㅣ     ㄴㅡtapered           
-              ...෴                                 ㅣ  ㄴㅡaccessories              
-                                                     ㅣ                               
-           ...෴                                    ㅏㅡcoffee                       
-              ...෴                                 ㅣ  ㅏㅡespresso                 
-              ...෴                                 ㅣ  ㄴㅡlatte                    
-                                                     ㅣ                               
-           ...෴                                    ㄴㅡPython                       
-              ...෴                                    ㄴㅡbranch                    
-                 ...෴                                    ㄴㅡinit_theme             
+             - Larva race theme -                        - Korean -                      
+                                                                                
+                Larva race! 
+                                                           .                               
+                ...෴                                    ㅏㅡclothes                      
+                   ...෴                                 ㅣ  ㅏㅡshirts                   
+                   ...෴                                 ㅣ  ㅏㅡpants                    
+                      ...෴                              ㅣ  ㅣ  ㄴㅡdenim                
+                         ...෴                           ㅣ  ㅣ     ㄴㅡtapered           
+                   ...෴                                 ㅣ  ㄴㅡaccessories              
+                                                          ㅣ                               
+                ...෴                                    ㅏㅡcoffee                       
+                   ...෴                                 ㅣ  ㅏㅡespresso                 
+                   ...෴                                 ㅣ  ㄴㅡlatte                    
+                                                          ㅣ                               
+                ...෴                                    ㄴㅡPython                       
+                   ...෴                                    ㄴㅡbranch                    
+                      ...෴                                    ㄴㅡinit_theme             
                           
 
 ***                                         
