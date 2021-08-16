@@ -8,7 +8,7 @@ inspired by directory branches, **no additional libraries needed (acts only with
 
 ***     
   
- <div align="center">
+<div align="center">
 < How to use >
 </div>
 
@@ -81,22 +81,28 @@ inspired by directory branches, **no additional libraries needed (acts only with
                           
 
 ***                                         
-
-                                                     < How to import >  
+<div align="center">
+< How to import > 
+</div>   
+~~~                                                       
     import sys
     sys.path.append(*location(dir) of branch.py*)
     import branch as brn
+~~~
 
-
-        
-                                                    < How to re-import >  
+<div align="center">
+< How to re-import >  
+</div>   
+~~~                                                      
     from imp import reload 
     reload(brn) 
-
+~~~
 ***
-~~~                                                   
-                                                         < Code >        
-                                                           
+  
+<div align="center">
+< Code >  
+</div>                                    
+~~~                                                  
   import sys
   sys.path.append(%%your branch location%%)
   import branch as brn
@@ -109,9 +115,9 @@ inspired by directory branches, **no additional libraries needed (acts only with
   theme_larva = brn.branch_theme('larva', string)
   theme_korean = brn.branch_theme('theme_korean', string)     
     
-    
+~~~
       * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
 
-~~~                                                           
+                                                    
 ***
 
