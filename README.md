@@ -10,7 +10,7 @@ no additional libraries needed (acts only with lists)
 
   
 <div align="center">
- 
+</div>
 < Result >
   
 - Default -
@@ -88,7 +88,10 @@ no additional libraries needed (acts only with lists)
                           
 
 ***                                         
-                                                     < How to use >  
+<div align="center">
+####< How to use >  
+</div>
+
                                                      
                                                      
 1. branch making is only based on the bracketed sign and the sequence you write.
@@ -117,15 +120,18 @@ no additional libraries needed (acts only with lists)
 ***
 
                                                          < Code >  
-    ( Default theme )                
-    
-    branched_string = brn.branch(string)
-    
-    
-    ( apply theme )      
-    
-    themed_str = brn.branch_theme('theme_korean', string)
-    
+                                                           
+import sys
+sys.path.append(%%your branch location%%)
+import branch as brn
+
+string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
+          [m] coffee [s] espresso [s] latte \
+          [m] Python [s] branch [ss] init_theme'
+
+default = brn.branch(string)
+theme_larva = brn.branch_theme('larva', string)
+theme_korean = brn.branch_theme('theme_korean', string)     
     
     
     * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
