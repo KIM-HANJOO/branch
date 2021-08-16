@@ -126,7 +126,7 @@ inspired by directory branches, **no additional libraries needed (acts only with
   theme_larva = brn.branch_theme('larva', string)
   theme_korean = brn.branch_theme('theme_korean', string)     
 ~~~
-* you can also make your own theme ! define new theme as a funtion, declare new top, bar, empty, middle, end, tip with utf-8 characters, and try ur own theme by using 'branch_theme('your_theme', string)' !
+*you can also make your own theme ! define a new theme as a funtion, declare new 'top, bar, empty, middle, end, tip' variables with utf-8 characters, and try ur own theme by using 'branch_theme('your_theme', string)' !
   
 
                                                     
