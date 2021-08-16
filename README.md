@@ -90,7 +90,15 @@ inspired by directory branches, **no additional libraries needed (acts only with
                       ...෴                                    ㄴㅡinit_theme             
                           
 
-***                                         
+***           
+
+<div align="center">
+< Example_ list of functions in own library> 
+</div>                                     
+<p align="center">
+  <img src="https://github.com/suhyuuk/branch/blob/main/branch_example_functionlist.png"  img width="400px"/>
+<p/>
+                                        
 <div align="center">
 < How to import > 
 </div>
