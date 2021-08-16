@@ -9,29 +9,6 @@ no additional libraries needed (acts only with lists)
 ![](example_gif.gif)
 
   
-<div align="center">
-</div>
-< Result >
-  
-- Default -
-  
-.                             
-├─clothes                     
-│  ├─shirts                   
-│  ├─pants                    
-│  │  └─denim                 
-│  │     └─tapered            
-│  └─accessories              
-│                             
-├─coffee                      
-│  ├─espresso                 
-│  └─latte                    
-│                             
-└─Python                      
-   └─branch                   
-      └─init_theme  
-</div>
-
 ~~~                     
 
                                                        < Input >  
@@ -89,7 +66,7 @@ no additional libraries needed (acts only with lists)
 
 ***                                         
 <div align="center">
-####< How to use >  
+< How to use >
 </div>
 
                                                      
