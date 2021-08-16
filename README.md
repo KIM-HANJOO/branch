@@ -10,7 +10,26 @@ no additional libraries needed (acts only with lists)
 
   
 <div align="center">
-  my text here.
+ 
+< Result >
+  
+- Default -
+  
+.                             
+├─clothes                     
+│  ├─shirts                   
+│  ├─pants                    
+│  │  └─denim                 
+│  │     └─tapered            
+│  └─accessories              
+│                             
+├─coffee                      
+│  ├─espresso                 
+│  └─latte                    
+│                             
+└─Python                      
+   └─branch                   
+      └─init_theme  
 </div>
 
 ~~~                     
