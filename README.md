@@ -7,8 +7,9 @@ inspired by directory branches, **no additional libraries needed (acts only with
   <img src="https://github.com/suhyuuk/branch/blob/main/example_gif.gif"  img width="800px"/>
 <p/>
 
-*** 
-##### different themes and theme customization is available !
+***   
+
+#### different themes and theme customization are also available !  
 
 <p align="center">
   <img src="https://github.com/suhyuuk/branch/blob/main/theme_example.gif"  img width="800px"/>
