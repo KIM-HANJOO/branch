@@ -1,6 +1,6 @@
 # BRANCH
 <div align="center">
-< example of using branch>
+< branch used to show the list of functions in library>
 </div>                              
 <p align="center">
   <img src="https://github.com/suhyuuk/branch/blob/main/branch_example_functionlist.png"  img width="300px"/>
