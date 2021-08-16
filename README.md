@@ -21,7 +21,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
 < How to use >
 </div>
 
-                                                     
+
+0. you only need to download 'branch.py'. import this as an module in anywhere you want, and use with single lined code.
                                                      
 1. branch making is only based on the bracketed sign and the sequence you write.
     
