@@ -104,7 +104,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
 <div align="center">
 < How to import > 
 </div>
-~~~                                                       
+    
+~~~ 
     import sys
     sys.path.append(*location(dir) of branch.py*)
     import branch as brn
