@@ -1,14 +1,30 @@
 # BRANCH
 **BRANCH is a user module** for expressing vertical / horizontal relationship between objects  
-inspired by directory branches  
-no additional libraries needed (acts only with lists)
+inspired by directory branches, **no additional libraries needed (acts only with lists)**
   
-  
-  
+***   
 
 ![](example_gif.gif)
 
+***     
   
+ <div align="center">
+< How to use >
+</div>
+
+                                                     
+                                                     
+1. branch making is only based on the bracketed sign and the sequence you write.
+    
+2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
+    
+3. [s] is sub-level of [m], [ss] is sub-level of [s], 
+       continously, [sss] is sub-level of [ss]..
+       
+4. the shape of the branch will be automatically made
+   
+    
+***   
 ~~~                     
 
                                                        < Input >  
@@ -65,23 +81,6 @@ no additional libraries needed (acts only with lists)
                           
 
 ***                                         
-<div align="center">
-< How to use >
-</div>
-
-                                                     
-                                                     
-1. branch making is only based on the bracketed sign and the sequence you write.
-    
-2. [m] is for the top level titles, in this example, are 'clothes', 'coffee', 'Python'.
-    
-3. [s] is sub-level of [m], [ss] is sub-level of [s], 
-       continously, [sss] is sub-level of [ss]..
-       
-4. the shape of the branch will be automatically made
-   
-    
-***   
 
                                                      < How to import >  
     import sys
@@ -95,8 +94,8 @@ no additional libraries needed (acts only with lists)
     reload(brn) 
 
 ***
-
-                                                         < Code >  
+~~~                                                   
+                                                         < Code >        
                                                            
   import sys
   sys.path.append(%%your branch location%%)
@@ -112,6 +111,7 @@ no additional libraries needed (acts only with lists)
     
     
       * you can also make your own theme, and replace 'theme_korean()' to the name of your defined theme function
-    
+
+~~~                                                           
 ***
 
