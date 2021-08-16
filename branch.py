@@ -36,7 +36,7 @@
 # branched_string = brn.branch(string)
 # print(branched_string)
 #
-# themed_str = brn.branch_theme('theme_korean()', string)
+# themed_str = brn.branch_theme('theme_korean', string)
 # print(themed_str)
 
 
@@ -118,7 +118,8 @@
 #########################################################################################
 
 
-def default_theme() :
+def default() :
+    top = '.'
     bar = '│'
     empty = '  '
     middle = '\u251c'
@@ -128,10 +129,13 @@ def default_theme() :
     middle = middle + tip
     end = end + tip
     
-    return bar, empty, middle, end, tip
+    show = 1
+    
+    return top, bar, empty, middle, end, tip, show
 
 
 def theme_korean() :
+    top = '.'
     bar = 'ㅣ'
     empty = '  '
     middle = 'ㅏ'
@@ -141,28 +145,61 @@ def theme_korean() :
     middle = middle + tip
     end = end + tip
     
-    return bar, empty, middle, end, tip
+    show = 1
+    
+    return top, bar, empty, middle, end, tip, show
+
+def wave() :
+    top = '.'
+    bar = '\u3030'
+    empty = '  '
+    middle = '\u3030'
+    end = '\u3030'
+    tip = '\u3030'
+
+    middle = middle + tip
+    end = end + tip
+    
+    show = 1
+    
+    return top, bar, empty, middle, end, tip, show
+
+
+def larva() :
+    top = 'Larva race! \n'
+    bar = ' '
+    empty = '  '
+    middle = '...'
+    end = '...'
+    tip = '\u0df4'
+
+    middle = middle + tip
+    end = end + tip
+    
+    show = 0
+
+    return top, bar, empty, middle, end, tip, show
 
 #########################################################################################
 
 def branch(string) :
-    bar, empty, middle, end, tip = default_theme()
+    top, bar, empty, middle, end, tip, show = default()
     bracket_list, string_list = split_string(string)
     br_length = branches_length(bracket_list)
     istip = tip_finder(br_length)
     structure = branch_structure(br_length)
-    string_adj = makebranch(bar, empty, middle, end, string_list, br_length, istip, structure)
+    string_adj = makebranch(top, bar, empty, middle, end, show, string_list, br_length, istip, structure)
     print(string_adj)
 
     return string_adj
 
 def branch_theme(theme, string) :
-    bar, empty, middle, end, tip = eval(theme)
+    top, bar, empty, middle, end, tip, show = eval(theme + '()')
     bracket_list, string_list = split_string(string)
     br_length = branches_length(bracket_list)
     istip = tip_finder(br_length)
     structure = branch_structure(br_length)
-    string_adj = makebranch(bar, empty, middle, end, string_list, br_length, istip, structure)
+    string_adj = makebranch(top, bar, empty, middle, end, show, string_list, br_length, istip, structure)
     print(string_adj)
 
     return string_adj
@@ -220,7 +257,7 @@ def split_string(string) :
     return bracket_list, string_list
 
 ## 2) add branches from brackets
-def makebranch(bar, empty, middle, end, string_list, br_length, istip, structure) :
+def makebranch(top, bar, empty, middle, end, show, string_list, br_length, istip, structure) :
     allstr = []
 
     for i in range(len(br_length)) :
@@ -229,10 +266,10 @@ def makebranch(bar, empty, middle, end, string_list, br_length, istip, structure
         
         # one space for [m]
         if i == 0 :
-            string_temp.append('.\n')
+            allstr.append(top)
         elif i != 0 :
             if br_length[i] == 0 :
-                string_temp.append(bar + '\n')
+                allstr.append(bar)
                 
         # detemine tip or middle
         if istip[i] == 0 :
@@ -258,17 +295,24 @@ def makebranch(bar, empty, middle, end, string_list, br_length, istip, structure
                         string_temp.append(end_temp)
         
         # add original string
-        string_temp.append(string_list[i])
-        
-        if i != len(br_length) - 1 :
-            string_temp.append('\n')
+        if show == 1 :
+            string_temp.append(string_list[i])
+
+        # if i != len(br_length) - 1 :
+        #     string_temp.append('\n')
 
         string_temp_str = ''.join(string_temp)
         allstr.append(string_temp_str)
 
+    length_allstr = []
+    for i in range(len(allstr)) :
+        length_allstr.append(len(allstr[i]))
+
+    wannabe = (max(length_allstr) // 10 + 1) * 10
+    for i in range(len(allstr)) :
+        allstr[i] = allstr[i] + ' ' * (wannabe - len(allstr[i])) + '\n'
 
     return ''.join(allstr)
-
 
 ## 3) branch length
 def branches_length(br_list) :
