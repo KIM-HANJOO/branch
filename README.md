@@ -106,9 +106,9 @@ inspired by directory branches, **no additional libraries needed (acts only with
 </div>
     
 ~~~ 
-    import sys
-    sys.path.append(*location(dir) of branch.py*)
-    import branch as brn
+import sys
+sys.path.append(*location(dir) of branch.py*)
+import branch as brn
 ~~~
 
 <div align="center">
@@ -116,8 +116,8 @@ inspired by directory branches, **no additional libraries needed (acts only with
 </div>  
   
 ~~~                                                      
-    from imp import reload 
-    reload(brn) 
+from imp import reload 
+reload(brn) 
 ~~~
   
 <div align="center">
@@ -125,17 +125,17 @@ inspired by directory branches, **no additional libraries needed (acts only with
 </div>  
   
 ~~~                                                  
-  import sys
-  sys.path.append(%%your branch location%%)
-  import branch as brn
+import sys
+sys.path.append(%%your branch location%%)
+import branch as brn
 
-  string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
-            [m] coffee [s] espresso [s] latte \
-            [m] Python [s] branch [ss] init_theme'
+string = '[m] clothes [s] shirts [s] pants [ss] denim [sss] tapered [s] accessories \
+          [m] coffee [s] espresso [s] latte \
+          [m] Python [s] branch [ss] init_theme'
 
-  default = brn.branch(string)
-  theme_larva = brn.branch_theme('larva', string)
-  theme_korean = brn.branch_theme('theme_korean', string)     
+default = brn.branch(string)
+theme_larva = brn.branch_theme('larva', string)
+theme_korean = brn.branch_theme('theme_korean', string)     
 ~~~
 *you can also make your own theme by defining a new 'theme function'. In the function, declare new 'top, bar, empty, middle, end, tip' variables with utf-8 characters, and try the custom theme by using 
 'themed_str = brn.branch_theme('your_theme', string)'
