@@ -31,7 +31,7 @@ inspired by directory branches, **no additional libraries needed (acts only with
 3. [s] is sub-level of [m], [ss] is sub-level of [s], 
        continously, [sss] is sub-level of [ss]..
        
-4. the shape of the branch will be automatically made
+4. the shape of the branch will be automatically determined
    
     
 ***   
