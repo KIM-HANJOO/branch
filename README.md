@@ -1,5 +1,7 @@
 # BRANCH
-                                
+<div align="center">
+< example of using branch>
+</div>                              
 <p align="center">
   <img src="https://github.com/suhyuuk/branch/blob/main/branch_example_functionlist.png"  img width="300px"/>
 <p/>
