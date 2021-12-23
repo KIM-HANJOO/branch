@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #########################################################################################
 #########################################################################################
 ##                                                                                     ##
@@ -117,6 +119,7 @@
 #########################################################################################
 #########################################################################################
 
+import os
 
 def default() :
     top = '.'
@@ -379,3 +382,65 @@ def branch_structure(br_length) :
     structure = structure[ :: -1]
 
     return structure
+
+def lastindex(string, ind) :
+    sind = 0
+    for i in range(len(string)) :
+        if string[i] == ind :
+            sind = i
+
+    return sind + 1
+    
+def lastr(string, ind) :
+    tempind = lastindex(string, ind)
+    return string[tempind : ]
+
+# from here to end, adjust code (wrong use of while)
+
+def reach_out(direc) :
+    allstr = '[m]'
+    allstr += lastr(direc, '/')
+    
+    mother = direc 
+    addstr = '[s'
+
+    temp_check = 1
+    while temp_check == 1 :
+        temp_check = 0
+
+        for daughter in os.listdir(mother) :
+            daughter = mother + '\\' + daughter
+            if os.path.isdir(daughter) :
+                allstr += addstr + ']'
+                allstr += lastr(daughter, '/')
+
+                temp_check = 1
+                addstr += 's'
+                
+                
+
+
+        
+
+
+
+tempdir = os.getcwd()
+tempstr = lastr(tempdir, '/')
+
+string = f'[m]{tempstr}'
+
+check = 1
+while check == 1:
+	check = 0
+	for subdir in os.listdir(tempdir) :
+        subdir = tempdir + '\\' + subdir
+		if os.path.isdir(subdir) :
+			check = 1
+
+    for subdir in os.listdir(tempdir) :
+        subdir = tempdir + '\\' + subdir
+        if os.path.isdir(subdir) :
+
+        elif os.path.isfile(subdir) :
+            
+            
